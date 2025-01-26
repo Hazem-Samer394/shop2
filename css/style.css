@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bodyBg: #f6f6f6;
+    --bodyFont: #2b3445;
+    --blue: #9fc5ef;
+    --icons: #40464d;
+    --blue-bottom: #1976d2;
+    --footer-bg-color: #212529;
+    --fff: #fff;
+}
+
+html {
+    font-family: system-ui,
+
+
+}
+
+main {
+    /* width: 80% !important; */
+    margin-inline: 10%;
+}
+
+
+.flex {
+    align-items: center;
+    display: flex;
+}
+
+h2 {
+    border: 2px solid red;
+    max-width: 500px;
+    height: 500px;
+    padding-left: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(97, 97, 97);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}
+
+a,
+button {
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:active,
+a:active {
+    scale: 0.8;
+}
+
+li {
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.fa-solid {
+    color: var(--icons);
+}
